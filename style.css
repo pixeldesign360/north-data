@@ -1,18 +1,18 @@
 /* Color Variables */
 :root {
-  --primary-color: #007388;
-  --primary-dark: #005a6b;
-  --primary-light: #0099b3;
-  --accent-color: #ff6b35;
-  --accent-light: #ff8a5c;
-  --secondary-color: #2c3e50;
-  --text-dark: #2c3e50;
+  --primary-color: #1346ff;
+  --primary-dark: #0d2e99;
+  --primary-light: #4fc3f7;
+  --accent-color: #00c48c;
+  --accent-light: #4fc3f7;
+  --secondary-color: #1a2233;
+  --text-dark: #222b45;
   --text-light: #7f8c8d;
-  --background-light: #f8f9fa;
+  --background-light: #f5f8ff;
   --white: #ffffff;
-  --success-color: #27ae60;
-  --warning-color: #f39c12;
-  --error-color: #e74c3c;
+  --success-color: #00c48c;
+  --warning-color: #ffb300;
+  --error-color: #ff4f64;
 }
 
 html,
@@ -692,7 +692,6 @@ body {
   .card {
     min-width: 260px;
     max-width: 340px;
-    padding: 22px 36px;
   }
 }
 .btn {
@@ -1435,7 +1434,6 @@ body {
 .footer__logo img {
   height: 40px;
   width: auto;
-  filter: brightness(0) invert(1);
 }
 
 .footer__inner_menu {
